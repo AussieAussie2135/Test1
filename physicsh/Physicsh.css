@@ -1,0 +1,63 @@
+<style>
+        .centre {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        }
+
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            background-color: #F0F0F0;
+            color: #000000;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            max-width: 300px;
+            max-height: 5000px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            height: auto;
+        }
+
+        .title {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .image {
+            max-width: 75%;
+        }
+
+        .combo-box, .level-box {
+            font-size: 12px;
+            padding: 6px;
+            margin-right: 10px;
+        }
+
+        .calc-btn, .theory-btn {
+            background-color: #4CAF50;
+            color: #FFFFFF;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+
+        .result, .theory-box {
+            color: #1976D2;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        p.b {
+          text-align-last: center;
+        }
+</style>

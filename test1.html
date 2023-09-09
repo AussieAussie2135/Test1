@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Your CSS styles here */
+    </style>
+    <title>IFrame Example</title>
+</head>
+<body>
+    <div class="container">
+        <button id="add-iframe-btn">Add IFrame</button>
+        <div id="iframe-container"></div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const addIframeButton = document.getElementById("add-iframe-btn");
+            const iframeContainer = document.getElementById("iframe-container");
+
+            addIframeButton.addEventListener("click", function () {
+                const iframe = document.createElement("iframe");
+                iframe.src = "https://www.example.com"; // Set the source URL of the iframe
+                iframe.width = "100%";
+                iframe.height = "400px";
+                iframe.frameBorder = "0"; // Remove iframe border
+                iframeContainer.appendChild(iframe);
+            });
+        });
+    </script>
+</body>
+</html>

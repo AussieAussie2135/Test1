@@ -1,0 +1,29 @@
+                if (selectedOption === "Displacement (m)") {
+                    const velocity = parseFloat(prompt("Enter velocity (m/s):"));
+                    const time = parseFloat(prompt("Enter time (s):"));
+                    const Displacement = velocity * time;
+
+                    resultLabel.textContent = `Result: Displacement: ${Displacement} m`;
+                } else {
+                    resultLabel.textContent = "Result: Calculation not supported.";
+                }
+                if (selectedOption === "Acceleration (m/s^2)") {
+                    const velocity = parseFloat(prompt("Enter velocity (m/s):"));
+                    const time = parseFloat(prompt("Enter time (s):"));
+                    const Acceleration = velocity / time;
+
+                    resultLabel.textContent = `Result: Acceleration: ${Acceleration} m/s^2`;
+                } else {
+                    resultLabel.textContent = "Result: Calculation not supported.";
+                }
+                if (selectedOption === "Force (N)") {
+                    const velocity = parseFloat(prompt("Enter velocity (m/s):"));
+                    const time = parseFloat(prompt("Enter time (s):"));
+                    const mass = parseFloat(prompt("Enter mass (kg):"));
+                    const Acceleration = velocity / time;
+                    const force = mass * Acceleration;
+
+                    resultLabel.textContent = `Result: Force: ${Force} N`;
+                } else {
+                    resultLabel.textContent = "Result: Calculation not supported.";
+                }
